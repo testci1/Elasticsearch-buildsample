@@ -8,3 +8,8 @@ services:
 install: pip install --use-mirrors -r requirements.txt
 script:
  - python sample.py
+#exclude
+branches:
+  except:
+    - stage
+    
