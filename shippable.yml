@@ -3,8 +3,14 @@ python:
  - "2.7"
  #- "2.6"
  
+env:
+ - secure: NRFd4YaXHngpp1KAs+GkY+0VCnNhudVNQUXDPhlIg1u6wjYhZT/R6LiDZfF4c0Pp+mNzdUZ1+OujcL6fkds+9OyQcgyKvTZtfmRS7oxb+eMi2eq/j+7yr4kGck2Fe8ZuYbtsFIqCcUuOf0Xzq3GtGTckiG4NUSJCmHYaGyk+Jm4gBncv4xP1S07bjU30zXLRP3thXXncOigblqbgGA9RhF5DTrl1XX9J0t+wtVTa8zCHaICWD+xVMfW7+8YNK1yA4VSxWDEHzcQrhstx+m8401PgrC5sPFyP9AzfAjDYOndxOR4qMOne6Ru0UaOWaN5kY6NaVqXMt3e63gbw/OfMkw==
+ 
 services:
  - elasticsearch
+ 
 install: pip install --use-mirrors -r requirements.txt
+
 script:
  - python sample.py
+ - echo $key1
