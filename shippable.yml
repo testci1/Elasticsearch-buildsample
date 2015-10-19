@@ -17,7 +17,8 @@ branches:
     - stage
     - prod
     
-#archive: true
+archive: true
 
 notifications:
- email: false
+ email: 
+  varsha@shippable.com
