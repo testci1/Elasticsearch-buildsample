@@ -12,15 +12,15 @@ script:
  - python sample.py
 
 #exclude
-branches:
-  except:
-    - stage
-    - prod
+#branches:
+ # except:
+   # - stage
+  #  - prod
     
-archive: true
+#archive: true
 
-notifications:
- email: 
-  test.accsyncghbb@gmail.com
+#notifications:
+ #email: 
+ # test.accsyncghbb@gmail.com
   
-cache: true
+#cache: true
