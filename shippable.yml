@@ -19,8 +19,8 @@ script:
     
 #archive: true
 
-#notifications:
- #email: 
- # test.accsyncghbb@gmail.com
+notifications:
+ email: 
+  test.ship12@gmail.com
   
 #cache: true
